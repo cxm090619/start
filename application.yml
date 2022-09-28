@@ -1,0 +1,12 @@
+server:
+  port: 7000
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/cxm090619/start.git
+          username: cxm090619
+          password: xm2002090619
